@@ -1,0 +1,240 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Risque';
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 8rem;
+    z-index: 2;
+}
+
+p{
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+#nav-container{
+    width: 475px;
+    height: 80px;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-color,
+.nav-link-color:hover{
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.nav a{
+    font-size: 1.2em !important;
+    letter-spacing: 0.2em !important;
+    padding-top: 1rem;
+}
+
+.nav-padding{
+    padding-right: 4rem;
+}
+
+.container {
+    width: 80%;
+    padding-left: 9rem;
+    margin-left: 0;
+    padding-top: 3rem;
+    
+}
+
+/* Page 1 HomeLand*/
+
+.page-one-box{
+    position: absolute;
+    background-color: #B23BBF;
+    width: 65px;
+    height: 16.7rem;
+    top: 0;
+    left: 29.6%;
+    z-index: -1;
+}
+
+
+
+.page-one-box2{
+    position: absolute;
+    background-color:#B23BBF;
+    width: 86%;
+    height: 5rem;
+    padding-top: 4rem;
+    top: 30rem;
+    
+}
+
+.page-one-box3{
+    position: absolute;
+    background-color: #B23BBF;
+    width: 65px;
+    height: 3rem;
+    bottom: 0;
+    left: 29.6%;
+    z-index: -1;
+}
+
+.text-container{
+    max-width: 50%;
+    height: 100%;
+}
+.container-fluid{
+    padding-top: 20%;
+    padding-right: 14%;
+    margin-right: 0;
+    line-height: 1.7;
+}
+
+/* Page 2 About Sea */
+
+.page-two-box{
+    position: absolute;
+    width: 250px;
+    height: 98px;
+    left: 0px;
+    top: 317px;
+    background: #1CC25B;
+}
+
+.page-two-box2{
+    position: absolute;
+    width: 65px;
+    height: 97px;
+    left: 1250px;
+    top: 0px;
+    
+    background: #1CC25B;
+}
+
+.page-two-box3{
+    position: absolute;
+    width: 65px;
+    height: 184px;
+    left: 1000px;
+    top: 753px;
+    
+    background: #1CC25B;
+}
+
+.page-two-box4{
+    position: absolute;
+    width: 650px;
+    height: 72px;
+    left: 813px;
+    top: 684px;
+    
+    background: #1CC25B;
+}
+.page-two-box5{
+
+    position: absolute;
+    width: 65px;
+    height: 271px;
+    left: 748px;
+    top: 543px;
+    
+    background: #1CC25B;
+}
+
+.page-two-box6{
+    position: absolute;
+    width: 50px;
+    height: 98px;
+    right: 0px;
+    top: 317px;
+    background: #1CC25B;
+}
+
+
+
+.text-container-about{
+    max-width: 35%;
+    height: 50%;
+}
+
+.container-fluid2{
+    padding-top: 13%;
+    
+    padding-left: 8%;
+    
+    line-height: 1.7;
+}
+
+/* Page 3 Contact Yar */
+
+.page-three-box{
+    
+position: absolute;
+width: 65px;
+height: 170px;
+left: 900px;
+top: 0px;
+
+background: #EB9205;
+}
+
+.page-three-box2{
+    position: absolute;
+    background: #EB9205;
+    width: 86%;
+    height: 5rem;
+    padding-top: 4rem;
+    top: 20rem;
+}
+
+.page-three-box3{
+    position: absolute;
+    width: 65px;
+    height: 300px;
+    left: 600px;
+    top: 400px;
+    
+    background: #EB9205;
+}
+
+.page-three-box4{
+
+    position: absolute;
+    width: 498px;
+    height: 72px;
+    left: 660px;
+    top: 512px;
+    
+    background: #EB9205;
+}
+.page-three-box5{
+    position: absolute;
+    width: 65px;
+    height: 50px;
+    left: 900px;
+    bottom: 0px;
+    
+    background: #EB9205;
+
+}
+
+
+
+
+.text-container-contact{
+    max-width: 50%;
+    height: 50%;
+}
+
+.container-fluid3{
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right:0;
+    margin-left: 18%;
+    line-height: 1.7;
+}
